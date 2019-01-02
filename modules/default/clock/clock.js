@@ -53,7 +53,7 @@ Module.register("clock",{
 	getDom: function() {
 
 		var wrapper = document.createElement("div");
-
+		wrapper.className = "backgroundStyle";
 		/************************************
 		 * Create wrappers for DIGITAL clock
 		 */
@@ -66,7 +66,8 @@ Module.register("clock",{
 		// Style Wrappers
 		dateWrapper.className = "date normal medium";
 		timeWrapper.className = "time bright large light";
-		secondsWrapper.className = "dimmed";
+		//secondsWrapper.className = "dimmed";
+		secondsWrapper.className = "normal";
 		weekWrapper.className = "week dimmed medium"
 
 		// Set content of wrappers.

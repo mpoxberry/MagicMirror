@@ -173,6 +173,7 @@ Module.register("currentweather",{
 	// Override dom generator.
 	getDom: function() {
 		var wrapper = document.createElement("div");
+		wrapper.className = "backgroundStyle";
 
 		if (this.config.appid === "") {
 			wrapper.innerHTML = "Please set the correct openweather <i>appid</i> in the config for module: " + this.name + ".";

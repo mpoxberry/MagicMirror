@@ -9,6 +9,30 @@
  * Changes to this files will be ignored by GIT. *
  *****************************************************/
 
- body {
- 	
- }
+body {
+	background-image: url(https://i1.wp.com/livewallpaper.info/wp-content/uploads/2017/08/Christmas-tree-gold-foil-green-background-you-can-download-for-free-on-the-blog-For-any-d-wallpaper-wpc9003544.jpg?ssl=1);
+	background-color: #cccccc;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/* Default module background */
+.backgroundStyle {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+/* MMM-CalendarExt */
+.CALEXT {
+	background: rgba(0,0,0,0.7);
+}
+
+/* newsfeed */
+.newsfeed-background {
+	background-color: rgba(0,0,0,0.5);
+}
+
+/* MMM-GoogleShoppingList */
+.GSL {
+	background: rgba(0,0,0,0.7);
+}

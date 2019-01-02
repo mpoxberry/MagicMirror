@@ -22,7 +22,7 @@ Module.register("weatherforecast",{
 		timeFormat: config.timeFormat,
 		lang: config.language,
 		decimalSymbol: ".",
-		fade: true,
+		fade: false,
 		fadePoint: 0.25, // Start on 1/4th of the list.
 		colored: false,
 		scale: false,
@@ -119,6 +119,7 @@ Module.register("weatherforecast",{
 
 		var table = document.createElement("table");
 		table.className = this.config.tableClass;
+		table.classList.add("backgroundStyle");
 
 		for (var f in this.forecast) {
 			var forecast = this.forecast[f];
@@ -207,6 +208,8 @@ Module.register("weatherforecast",{
 		if (this.config.appendLocationNameToHeader) {
 			return this.data.header + " " + this.fetchedLocationName;
 		}
+
+		data.header.classList.add("backgroundStyle");
 
 		return this.data.header;
 	},
