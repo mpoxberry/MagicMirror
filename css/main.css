@@ -241,3 +241,10 @@ sup {
   border-spacing: 0;
   border-collapse: separate;
 }
+
+/* custom position */
+.region.bottom.half {
+  position: absolute;
+  top: 50%;
+  pointer-events: none;
+}

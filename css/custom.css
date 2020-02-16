@@ -10,8 +10,10 @@
  *****************************************************/
 
 body {
-	background-image: url(https://i1.wp.com/livewallpaper.info/wp-content/uploads/2017/08/Christmas-tree-gold-foil-green-background-you-can-download-for-free-on-the-blog-For-any-d-wallpaper-wpc9003544.jpg?ssl=1);
+	/*background-image: url("images/Winter_bench.jpg");
 	background-color: #cccccc;
+	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0;
 	height: 100%;
 	width: 100%;
@@ -26,6 +28,9 @@ body {
 .CALEXT {
 	background: rgba(0,0,0,0.7);
 }
+.calendarMonth {
+	height:25em;
+}
 
 /* newsfeed */
 .newsfeed-background {
@@ -35,4 +40,9 @@ body {
 /* MMM-GoogleShoppingList */
 .GSL {
 	background: rgba(0,0,0,0.7);
+}
+
+/* Force top-left region to only be 50% wide */
+.region.left {
+	width: 50%;
 }
